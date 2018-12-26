@@ -1,28 +1,16 @@
 <template>
-  <div id="app">
-    <img width="25%" src="./assets/logo.png">
-    <HelloWorld/>
-  </div>
+  <div id="app"><enrich /></div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld";
-
+import enrich from "./components/enrich";
+import testselect from "./components/testselect";
 export default {
   name: "App",
   components: {
-    HelloWorld
+    enrich
   }
 };
 </script>
 
-<style>
-#app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<style></style>
